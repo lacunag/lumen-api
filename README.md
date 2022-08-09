@@ -5,7 +5,6 @@
 This project is an example for creating a simple API. The main child functions:
 
 - consult information
-- query information by identifier
 - add data
 - update data
 - delete records
