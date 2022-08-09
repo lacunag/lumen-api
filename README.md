@@ -1,6 +1,6 @@
 # API Lumen PHP Framework
 
-## Description Project
+## Description
 
 This project is an example for creating a simple API. The main child functions:
 
@@ -15,10 +15,16 @@ This project is an example for creating a simple API. The main child functions:
 - database configuration (.env)
 - execute migration
 
-## Server Requirements
+## Requirements
 - APACHE
 - MYSQL (recommended)
 - PHP version 7.3 or higher is required, with the following extensions installed:
     * OpenSSL PHP Extension
     * PDO PHP Extension
     * Mbstring PHP Extension
+
+```sh
+OpenSSL PHP Extension
+PDO PHP Extension
+Mbstring PHP Extension
+```
