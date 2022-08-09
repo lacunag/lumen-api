@@ -19,9 +19,6 @@ This project is an example for creating a simple API. The main child functions:
 - APACHE
 - MYSQL (recommended)
 - PHP version 7.3 or higher is required, with the following extensions installed:
-    * OpenSSL PHP Extension
-    * PDO PHP Extension
-    * Mbstring PHP Extension
 
 ```sh
 OpenSSL PHP Extension
