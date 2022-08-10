@@ -16,10 +16,9 @@ This project is an example for creating a simple API. The main child functions:
 - execute migration
 
 ## Requirements
-- APACHE
 - MYSQL (recommended)
-- PHP version 7.3 or higher is required, with the following extensions installed:
-
+- PHP version 7.3 or higher is required
+- Extensions PHP
 ```sh
 OpenSSL PHP Extension
 PDO PHP Extension
