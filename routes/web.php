@@ -18,3 +18,7 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/clients', 'ClientController@index');
+$router->get('/clients/{id}', 'ClientController@show');
+$router->post('/clients', 'ClientController@store');
+$router->put('/clients/{id}', 'ClientController@update');
+$router->delete('/clients/{id}', 'ClientController@delete');

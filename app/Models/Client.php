@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
@@ -20,9 +21,6 @@ class Client extends Model
 
     // primary key
     public $primaryKey = 'id';
-
-    // timestamp
-    public $timestamps = true;
 
     // incrementing
     public $incrementing = true;
