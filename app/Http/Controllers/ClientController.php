@@ -82,12 +82,6 @@ class ClientController extends Controller
 
     public function delete($id)
     {
-        // encrypt id
-        $id = encrypt($id);
-        echo $id;
-        die();
-
-        die();
         // delete client
         $client = Client::find($id);
         if (!$client) {
